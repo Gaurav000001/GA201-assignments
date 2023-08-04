@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Code Converter</title>
+</head>
+<body>
+
+    <h1>Code Convert.in</h1>
+
+    <div class="form-container">
+        <div>
+            <label for="dropdown1">Coding Language</label>
+            <select id="dropdown1" onchange="check()">
+                <option value="javascript">JavaScript</option>
+                <option value="click">Java</option>
+                <option value="python">Python</option>
+                <option value="text/x-c++src">C++</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="dropdown2">Converting Language</label>
+            <select id="dropdown2">
+                <option value="click">Java</option>
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="text/x-c++src">C++</option>
+            </select>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-around; width: 40%;">
+            <button>CONVERT</button>
+
+            <button>CHECK</button>
+            
+            <button>DEBUG</button>
+        </div>
+        
+    </div>
+    
+    <div class="container">
+        <div class="editor-container">
+            <textarea id="code-editor"></textarea>
+        </div>
+        <div class="response-container">
+            <!-- <textarea id="code-editor2"></textarea> -->
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/addon/edit/closebrackets.min.js"></script>
+
+<!-- language scripts -->
+<!-- javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/javascript/javascript.min.js"></script>
+<!-- python -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.77.0/mode/python/python.min.js"></script>
+<!-- java -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.77.0/mode/clike/clike.min.js"></script>
+<!-- c++ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.77.0/mode/c_cpp/c_cpp.min.js"></script>
+
+<script src="./index.js"></script>
