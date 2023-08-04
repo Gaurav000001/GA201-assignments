@@ -5,7 +5,7 @@
 
 ## Task 1: Integrating ChatGPT with Backend Systems
 
-<img src="https://file.notion.so/f/s/c119fd50-e276-47dc-9198-6f19eff1b169/Untitled.png?id=918b73b7-a506-4469-9be0-c9240d6a969b&table=block&spaceId=ff94b4dd-cb13-4ede-8019-d6a8215bf3d5&expirationTimestamp=1691258400000&signature=TZBcwyvZpJaKpLCmrCV1B2T9r4Tm-n2EZWMoHcsykUQ&downloadName=Untitled.png" alt="">
+<img src="https://file.notion.so/f/s/c119fd50-e276-47dc-9198-6f19eff1b169/Untitled.png?id=918b73b7-a506-4469-9be0-c9240d6a969b&table=block&spaceId=ff94b4dd-cb13-4ede-8019-d6a8215bf3d5&expirationTimestamp=1691258400000&signature=TZBcwyvZpJaKpLCmrCV1B2T9r4Tm-n2EZWMoHcsykUQ&downloadName=Untitled.png" alt="image">
 
 Objective: The primary aim of this project is to create a backend server that interacts with OpenAI's GPT (Generative Pretrained Transformer) model API and enables a conversational interface with the GPT model. Depending upon your proficiency and comfort, you may choose to work with Node.js or Java.
 
@@ -16,12 +16,12 @@ Objective: The primary aim of this project is to create a backend server that in
     1. Go to: https://platform.openai.com/
     2. Select View API Keys
     
-<img src="https://file.notion.so/f/s/823aeb9d-efef-4894-845d-e04ddca9d32d/Untitled.png?id=01990c91-5282-48b8-8014-e262702c0490&table=block&spaceId=ff94b4dd-cb13-4ede-8019-d6a8215bf3d5&expirationTimestamp=1691258400000&signature=HwSywcLFRtlxjFf17V8s6SRlIMIrYqkn37hQnh74DUM&downloadName=Untitled.png" alt="immm">
+<img src="https://file.notion.so/f/s/823aeb9d-efef-4894-845d-e04ddca9d32d/Untitled.png?id=01990c91-5282-48b8-8014-e262702c0490&table=block&spaceId=ff94b4dd-cb13-4ede-8019-d6a8215bf3d5&expirationTimestamp=1691258400000&signature=HwSywcLFRtlxjFf17V8s6SRlIMIrYqkn37hQnh74DUM&downloadName=Untitled.png" alt="image">
     
 
 c. Create new secret key
 
-<img src="https://file.notion.so/f/s/4902a58b-ce3a-49a3-b040-0e411b6039ce/Untitled.png?id=67fec629-a4b1-494d-bf77-52c1860e470a&table=block&spaceId=ff94b4dd-cb13-4ede-8019-d6a8215bf3d5&expirationTimestamp=1691258400000&signature=QDqffn5za0BzZwjt4s93o8bOWUoPG4QKVGZskIWAO3g&downloadName=Untitled.png" alt="">
+<img src="https://file.notion.so/f/s/4902a58b-ce3a-49a3-b040-0e411b6039ce/Untitled.png?id=67fec629-a4b1-494d-bf77-52c1860e470a&table=block&spaceId=ff94b4dd-cb13-4ede-8019-d6a8215bf3d5&expirationTimestamp=1691258400000&signature=QDqffn5za0BzZwjt4s93o8bOWUoPG4QKVGZskIWAO3g&downloadName=Untitled.png" alt="image">
 
 1. **Backend Setup:** Set up your backend environment. You can choose Node.js or Java based on your preference. If you are using Node.js, you may use Express.js for setting up your server. If you're using Java, you can use Spring Boot.
 2. **Connecting with OpenAI API:** Connect your backend server with the OpenAI GPT API. Use the API key you received to authenticate your requests.
@@ -39,7 +39,7 @@ c. Create new secret key
 
 ## Task 2: **Creating an Interactive Content Generation Web Application using ChatGPT**
 
-<img src="https://file.notion.so/f/s/db252959-2e9d-48a7-a589-8ab5bd23e520/Untitled.png?id=0bf5a5c8-d3f5-41c4-ac72-116fdc24a7cd&table=block&spaceId=ff94b4dd-cb13-4ede-8019-d6a8215bf3d5&expirationTimestamp=1691258400000&signature=CC0S9mka8O3ijgTx2QOm8sqvhH0Nv6nWDqPnGgt5gF4&downloadName=Untitled.png" alt="">
+<img src="https://file.notion.so/f/s/db252959-2e9d-48a7-a589-8ab5bd23e520/Untitled.png?id=0bf5a5c8-d3f5-41c4-ac72-116fdc24a7cd&table=block&spaceId=ff94b4dd-cb13-4ede-8019-d6a8215bf3d5&expirationTimestamp=1691258400000&signature=CC0S9mka8O3ijgTx2QOm8sqvhH0Nv6nWDqPnGgt5gF4&downloadName=Untitled.png" alt="image">
 
 ## **Objective**
 
