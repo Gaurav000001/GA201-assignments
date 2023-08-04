@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./quote.css">
+    <title>Generator</title>
+</head>
+<body>
+    <h1>Welcome to Generator.in</h1>
+
+    <div class="form-container">
+        <div>
+            <label for="dropdown1">Option</label>
+            <select id="dropdown1" onchange="check()">
+                <option value="quote">Quote</option>
+                <option value="shayari">Shayari</option>
+                <option value="joke">Joke</option>
+                <option value="story">Story</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="dropdown2">Theme</label>
+            <select id="dropdown2">
+                <option value="life">Life</option>
+                <option value="love">Love</option>
+                <option value="friendship">Friendship</option>
+                <option value="happiness">Happiness</option>
+                <option value="success">Success</option>
+                <option value="dreams">Dreams</option>
+                <option value="courage">Courage</option>
+                <option value="hope">Hope</option>
+                <option value="gratitude">Gratitude</option>
+                <option value="change">Change</option>
+                <option value="strength">Strength</option>
+                <option value="wisdom">Wisdom</option>
+                <option value="perseverance">Perseverance</option>
+                <option value="positivity">Positivity</option>
+                <option value="growth">Growth</option>
+                <option value="forgiveness">Forgiveness</option>
+                <option value="confidence">Confidence</option>
+                <option value="patience">Patience</option>
+                <option value="creativity">Creativity</option>
+                <option value="mindfulness">Mindfulness</option>
+                <option value="leadership">Leadership</option>
+                <option value="education">Education</option>
+                <option value="family">Family</option>
+                <option value="nature">Nature</option>
+                <option value="freedom">Freedom</option>
+                <option value="kindness">Kindness</option>
+                <option value="compassion">Compassion</option>
+                <option value="faith">Faith</option>
+                <option value="time">Time</option>
+                <option value="adventure">Adventure</option>
+            </select>
+        </div>
+
+        <button id="submit-btn" onclick="generate()">Generate</button>
+        
+    </div>
+
+    <div class="output-container">
+        <h2>Output</h2>
+        <div id="output" class="output"></div>
+    </div>
+
+
+</body>
+</html>
+
+<script src="./quote.js"></script>

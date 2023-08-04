@@ -1,0 +1,16 @@
+server:
+  port: 9090
+  
+  
+openai: 
+  model: gpt-3.5-turbo
+  
+  api: 
+    key: your-apiKey
+    
+  url: https://api.openai.com/v1/chat/completions
+
+logging:
+  level: 
+    com:
+      shayari: debug

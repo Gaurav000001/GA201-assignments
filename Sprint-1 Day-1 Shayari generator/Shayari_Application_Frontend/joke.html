@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./joke.css">
+    <title>Generator</title>
+</head>
+<body>
+    <h1>Welcome to Generator.in</h1>
+
+    <div class="form-container">
+        <div>
+            <label for="dropdown1">Option</label>
+            <select id="dropdown1" onchange="check()">
+                <option value="joke">Joke</option>
+                <option value="shayari">Shayari</option>
+                <option value="story">Story</option>
+                <option value="quote">Quote</option>
+            </select>
+        </div>
+
+        <input type="text" id="keyword" placeholder="Type any keyword eg(love, war, sacrifice, etc)...">
+
+        <button id="submit-btn" onclick="generate()">Generate</button>
+        
+    </div>
+
+    <div class="output-container">
+        <h2>Output</h2>
+        <div id="output" class="output"></div>
+    </div>
+
+
+</body>
+</html>
+
+<script src="./joke.js"></script>
