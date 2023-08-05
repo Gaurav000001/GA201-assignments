@@ -32,12 +32,14 @@
             </select>
         </div>
 
-        <div style="display: flex; align-items: center; justify-content: space-around; width: 40%;">
+        <div style="display: flex; align-items: center; justify-content: space-around; width: 50%;">
             <button>CONVERT</button>
 
             <button>CHECK</button>
             
             <button>DEBUG</button>
+
+            <button onclick="run()">RUN</button>
         </div>
         
     </div>
@@ -46,8 +48,8 @@
         <div class="editor-container">
             <textarea id="code-editor"></textarea>
         </div>
-        <div class="response-container">
-            <!-- <textarea id="code-editor2"></textarea> -->
+        <div id="response-container">
+            
         </div>
     </div>
 </body>
@@ -60,10 +62,10 @@
 <!-- javascript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/javascript/javascript.min.js"></script>
 <!-- python -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.77.0/mode/python/python.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.77.0/mode/python/python.min.js"></script> -->
 <!-- java -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.77.0/mode/clike/clike.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.77.0/mode/clike/clike.min.js"></script> -->
 <!-- c++ -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.77.0/mode/c_cpp/c_cpp.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.77.0/mode/c_cpp/c_cpp.min.js"></script> -->
 
 <script src="./index.js"></script>
